@@ -5,7 +5,7 @@
   "description": "Minimal external-consumer example for @openclaw/ai",
   "type": "module",
   "scripts": {
-    "start": "node index.mjs"
+    "start": "node init && node index.mjs"
   },
   "dependencies": {
     "@openclaw/ai": "workspace:*"
